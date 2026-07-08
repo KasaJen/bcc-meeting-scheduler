@@ -360,6 +360,7 @@ Widget _infoRow(IconData icon, String label, String value, {bool isMultiline = f
                     monthViewSettings: const MonthViewSettings(
                       appointmentDisplayMode: MonthAppointmentDisplayMode.appointment,
                       showAgenda: true,
+                      agendaItemHeight: 50,
                       monthCellStyle: MonthCellStyle(
                         textStyle: TextStyle(fontSize: 20, color: Colors.black87),
                       ),
